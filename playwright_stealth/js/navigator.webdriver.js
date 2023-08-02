@@ -1,4 +1,3 @@
-// this is close to the most accurate way to emulate this: https://stackoverflow.com/a/69533548
 Object.defineProperty(Object.getPrototypeOf(navigator), 'webdriver', {
     set: undefined,
     enumerable: true,
